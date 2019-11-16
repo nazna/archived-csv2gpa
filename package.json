@@ -1,0 +1,58 @@
+{
+  "private": true,
+  "license": "MIT",
+  "version": "0.1.0",
+  "main": "package.json",
+  "name": "csv2gpa",
+  "description": "A command line tool to calculate GPA for Okayama Prefectural University",
+  "homepage": "",
+  "scripts": {
+    "watch": "tsc --watch",
+    "build": "tsc --project .",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint --fix '**/*.{ts,js}'",
+    "test": "jest",
+    "test:coverage": "jest --coverage",
+    "clean": "/bin/rm -rf node_modules && npm install"
+  },
+  "bin": {
+    "csv2gpa": "./dist/index.js"
+  },
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "csv-parse": "^4.8.2",
+    "iconv-lite": "^0.5.0",
+    "jschardet": "^2.1.1",
+    "yargs": "^14.2.0"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^8.2.0",
+    "@commitlint/config-conventional": "^8.2.0",
+    "@types/node": "^12.12.8",
+    "@types/yargs": "^13.0.3",
+    "@typescript-eslint/eslint-plugin": "^2.7.0",
+    "@typescript-eslint/parser": "^2.7.0",
+    "eslint": "^6.6.0",
+    "eslint-config-prettier": "^6.5.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-prettier": "^3.1.1",
+    "eslint-plugin-security": "^1.4.0",
+    "prettier": "^1.19.1",
+    "typescript": "^3.7.2"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "author": {
+    "name": "naoya3e",
+    "email": "naoya3e@gmail.com",
+    "url": "https://github.com/naoya3e"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/naoya3e/csv2gpa"
+  },
+  "bugs": {
+    "url": "https://github.com/naoya3e/csv2gpa/issues"
+  }
+}
