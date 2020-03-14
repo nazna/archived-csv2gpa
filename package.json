@@ -20,25 +20,25 @@
   },
   "dependencies": {
     "chalk": "^3.0.0",
-    "csv-parse": "^4.8.2",
-    "iconv-lite": "^0.5.0",
+    "csv-parse": "^4.8.8",
+    "iconv-lite": "^0.5.1",
     "jschardet": "^2.1.1",
-    "yargs": "^14.2.0"
+    "yargs": "^15.3.0"
   },
   "devDependencies": {
-    "@commitlint/cli": "^8.2.0",
-    "@commitlint/config-conventional": "^8.2.0",
-    "@types/node": "^12.12.8",
-    "@types/yargs": "^13.0.3",
-    "@typescript-eslint/eslint-plugin": "^2.7.0",
-    "@typescript-eslint/parser": "^2.7.0",
-    "eslint": "^6.6.0",
-    "eslint-config-prettier": "^6.5.0",
-    "eslint-plugin-import": "^2.18.2",
-    "eslint-plugin-prettier": "^3.1.1",
+    "@commitlint/cli": "^8.3.5",
+    "@commitlint/config-conventional": "^8.3.4",
+    "@types/node": "^13.9.1",
+    "@types/yargs": "^15.0.4",
+    "@typescript-eslint/eslint-plugin": "^2.23.0",
+    "@typescript-eslint/parser": "^2.23.0",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-prettier": "^3.1.2",
     "eslint-plugin-security": "^1.4.0",
     "prettier": "^1.19.1",
-    "typescript": "^3.7.2"
+    "typescript": "^3.8.3"
   },
   "engines": {
     "node": ">=10"
